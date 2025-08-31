@@ -20,7 +20,8 @@ Bu program, Google OR-Tools optimizasyon kütüphanesi kullanarak okullarda en o
 ## 🚀 Hızlı Başlangıç
 
 ### İndirme
-En son sürümü [Releases](https://github.com/cihangir83/lesson-scheduler/releases) sayfasından indirin.
+**Seçenek 1:** [GitHub Releases](https://github.com/cihangir83/lesson-scheduler/releases) - Resmi indirme  
+**Seçenek 2:** [Google Drive](https://drive.google.com/uc?export=download&id=1fEctjsM7svzqzY1ZDbJydn82KcISwmos) - Alternatif indirme
 
 ### Kurulum
 1. `LessonScheduler_Setup.exe` dosyasını çalıştırın
