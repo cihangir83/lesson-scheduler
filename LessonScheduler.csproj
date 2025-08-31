@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <!-- Allow SDK to include default WPF items so .g.cs (InitializeComponent) is generated -->
+    <EnableDefaultItems>true</EnableDefaultItems>
+    <!-- Maksimum optimizasyon (trimming olmadan) -->
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <PublishReadyToRun>false</PublishReadyToRun>
+    <DebuggerSupport>false</DebuggerSupport>
+    <EnableUnsafeUTF7Encoding>false</EnableUnsafeUTF7Encoding>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+    <!-- Native DLL'leri de dahil et -->
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <!-- EXE dosyası icon'u -->
+    <ApplicationIcon>Resources\school.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <!-- Let SDK discover Pages and code-behind automatically. We only keep non-XAML resources here. -->
+  <ItemGroup>
+    <PackageReference Include="Google.OrTools" Version="9.8.3296" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="iTextSharp" Version="5.5.13.3" />
+  </ItemGroup>
+
+  <!-- WPF trimming hatalarını bypass et -->
+  <ItemGroup>
+    <TrimmerRootAssembly Include="LessonScheduler" />
+    <TrimmerRootAssembly Include="Google.OrTools" />
+    <TrimmerRootAssembly Include="Newtonsoft.Json" />
+    <TrimmerRootAssembly Include="iTextSharp" />
+    <TrimmerRootAssembly Include="PresentationFramework" />
+    <TrimmerRootAssembly Include="PresentationCore" />
+    <TrimmerRootAssembly Include="WindowsBase" />
+  </ItemGroup>
+  
+  <!-- WPF trimming uyarısını bastır -->
+  <PropertyGroup>
+    <NoWarn>$(NoWarn);NETSDK1168</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\school.ico" />
+  </ItemGroup>
+</Project>

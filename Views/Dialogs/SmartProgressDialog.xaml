@@ -1,0 +1,129 @@
+<Window x:Class="LessonScheduler.Views.Dialogs.SmartProgressDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Ders Programı Oluşturuluyor" 
+        Width="520" Height="380"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize"
+        WindowStyle="SingleBorderWindow"
+        ShowInTaskbar="False"
+        Topmost="True">
+    
+    <Window.Resources>
+        <Style x:Key="ModernProgressBar" TargetType="ProgressBar">
+            <Setter Property="Height" Value="20"/>
+            <Setter Property="Background" Value="#E0E0E0"/>
+            <Setter Property="Foreground" Value="#4CAF50"/>
+            <Setter Property="BorderThickness" Value="0"/>
+        </Style>
+        
+        <Style x:Key="StatusText" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Foreground" Value="#333"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+        </Style>
+        
+        <Style x:Key="TipText" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="Foreground" Value="#666"/>
+            <Setter Property="FontStyle" Value="Italic"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+        </Style>
+    </Window.Resources>
+    
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="15"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="15"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        
+        <!-- Başlık -->
+        <TextBlock Grid.Row="0" x:Name="TitleText" 
+                   Text="🎯 Ders Programı Oluşturuluyor..." 
+                   FontSize="18" FontWeight="Bold" 
+                   HorizontalAlignment="Center" 
+                   Foreground="#2196F3"/>
+        
+        <!-- Progress Bar -->
+        <ProgressBar Grid.Row="2" x:Name="MainProgressBar" 
+                     Style="{StaticResource ModernProgressBar}"
+                     Value="0" Maximum="100"/>
+        
+        <!-- Yüzde -->
+        <TextBlock Grid.Row="2" x:Name="PercentageText" 
+                   Text="0%" 
+                   HorizontalAlignment="Center" 
+                   VerticalAlignment="Center"
+                   FontWeight="Bold" 
+                   Foreground="White"/>
+        
+        <!-- Durum -->
+        <TextBlock Grid.Row="4" x:Name="StatusText" 
+                   Text="Başlatılıyor..." 
+                   Style="{StaticResource StatusText}"/>
+        
+        <!-- İstatistikler -->
+        <StackPanel Grid.Row="6" Orientation="Horizontal" HorizontalAlignment="Center">
+            <TextBlock x:Name="StatsText" 
+                       Text="Yerleştirilen: 0/0 blok" 
+                       FontSize="12" Foreground="#555" Margin="0,0,20,0"/>
+            <TextBlock x:Name="TimeText" 
+                       Text="Süre: 0.0s" 
+                       FontSize="12" Foreground="#555" Margin="0,0,20,0"/>
+            <TextBlock x:Name="EstimateText" 
+                       Text="Kalan: ~0s" 
+                       FontSize="12" Foreground="#555"/>
+        </StackPanel>
+        
+        <!-- İpucu -->
+        <TextBlock Grid.Row="8" x:Name="TipText" 
+                   Text="💡 Zor bloklar önce yerleştiriliyor" 
+                   Style="{StaticResource TipText}"/>
+        
+        <!-- Başarı/Hata Mesajı (Gizli) -->
+        <Border Grid.Row="10" x:Name="ResultBorder" 
+                Background="#4CAF50" 
+                CornerRadius="8" 
+                Padding="20,15" 
+                Visibility="Collapsed"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Center">
+            <StackPanel HorizontalAlignment="Center">
+                <TextBlock x:Name="ResultTitle" 
+                           Text="✅ Çözüm Bulundu!" 
+                           FontSize="18" FontWeight="Bold" 
+                           Foreground="White" 
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,8"/>
+                <TextBlock x:Name="ResultMessage" 
+                           Text="" 
+                           FontSize="13" 
+                           Foreground="White" 
+                           HorizontalAlignment="Center" 
+                           TextWrapping="Wrap" 
+                           TextAlignment="Center"
+                           LineHeight="18"/>
+            </StackPanel>
+        </Border>
+        
+        <!-- İptal Butonu -->
+        <Button Grid.Row="12" x:Name="CancelButton" 
+                Content="İptal" 
+                Width="80" Height="30" 
+                HorizontalAlignment="Center"
+                Click="CancelButton_Click"/>
+    </Grid>
+</Window>

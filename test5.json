@@ -1,0 +1,179 @@
+{
+  "definitions": {
+      "lessons": [
+        "Beden Eğitimi",
+        "Bilişim Teknolojileri ve Yazılım",
+        "Din Kültürü ve Ahlak Bilgisi",
+        "Fen Bilgisi",
+        "Görsel Sanatlar",
+        "İngilizce",
+        "Matematik",
+        "Müzik",
+        "Seçmeli Matematik",
+        "Seçmeli Müzik",
+        "Seçmeli Spor Faaliyetleri",
+        "Sosyal Bilgiler",
+        "Türkçe"
+      ],
+      "teachers": [
+        "Öğretmen1",
+        "Öğretmen10",
+        "Öğretmen11",
+        "Öğretmen13",
+        "Öğretmen14",
+        "Öğretmen16",
+        "Öğretmen2",
+        "Öğretmen3",
+        "Öğretmen4",
+        "Öğretmen5",
+        "Öğretmen6",
+        "Öğretmen7",
+        "Öğretmen8",
+        "Öğretmen9"
+      ],
+      "classes": [
+        "Sınıf1",
+        "Sınıf2",
+        "Sınıf3",
+        "Sınıf4",
+        "Sınıf5",
+        "Sınıf6",
+        "Sınıf7",
+        "Sınıf8"
+      ]
+    },
+    "assignments": {
+      "Sınıf1": [
+        { "ders": "Matematik", "ogretmen": "Öğretmen1", "toplam_saat": 5, "blok_yapisi": "2,2,1" },
+        { "ders": "Seçmeli Matematik", "ogretmen": "Öğretmen1", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Sosyal Bilgiler", "ogretmen": "Öğretmen2", "toplam_saat": 3, "blok_yapisi": "2,1" },
+        { "ders": "Fen Bilgisi", "ogretmen": "Öğretmen3", "toplam_saat": 4, "blok_yapisi": "2,2" },
+        { "ders": "Türkçe", "ogretmen": "Öğretmen4", "toplam_saat": 6, "blok_yapisi": "2,2,2" },
+        { "ders": "İngilizce", "ogretmen": "Öğretmen5", "toplam_saat": 3, "blok_yapisi": "2,1" },
+        { "ders": "Beden Eğitimi", "ogretmen": "Öğretmen6", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Seçmeli Spor Faaliyetleri", "ogretmen": "Öğretmen6", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Din Kültürü ve Ahlak Bilgisi", "ogretmen": "Öğretmen7", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Bilişim Teknolojileri ve Yazılım", "ogretmen": "Öğretmen8", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Müzik", "ogretmen": "Öğretmen9", "toplam_saat": 1, "blok_yapisi": "1" },
+        { "ders": "Seçmeli Müzik", "ogretmen": "Öğretmen9", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Görsel Sanatlar", "ogretmen": "Öğretmen10", "toplam_saat": 1, "blok_yapisi": "1" }
+      ],
+      "Sınıf2": [
+        { "ders": "Matematik", "ogretmen": "Öğretmen1", "toplam_saat": 5, "blok_yapisi": "2,2,1" },
+        { "ders": "Seçmeli Matematik", "ogretmen": "Öğretmen1", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Sosyal Bilgiler", "ogretmen": "Öğretmen2", "toplam_saat": 3, "blok_yapisi": "2,1" },
+        { "ders": "Fen Bilgisi", "ogretmen": "Öğretmen3", "toplam_saat": 4, "blok_yapisi": "2,2" },
+        { "ders": "Türkçe", "ogretmen": "Öğretmen4", "toplam_saat": 6, "blok_yapisi": "2,2,2" },
+        { "ders": "İngilizce", "ogretmen": "Öğretmen5", "toplam_saat": 3, "blok_yapisi": "2,1" },
+        { "ders": "Beden Eğitimi", "ogretmen": "Öğretmen6", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Seçmeli Spor Faaliyetleri", "ogretmen": "Öğretmen6", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Din Kültürü ve Ahlak Bilgisi", "ogretmen": "Öğretmen7", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Bilişim Teknolojileri ve Yazılım", "ogretmen": "Öğretmen8", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Müzik", "ogretmen": "Öğretmen9", "toplam_saat": 1, "blok_yapisi": "1" },
+        { "ders": "Seçmeli Müzik", "ogretmen": "Öğretmen9", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Görsel Sanatlar", "ogretmen": "Öğretmen10", "toplam_saat": 1, "blok_yapisi": "1" }
+      ],
+      "Sınıf3": [
+        { "ders": "Matematik", "ogretmen": "Öğretmen1", "toplam_saat": 5, "blok_yapisi": "2,2,1" },
+        { "ders": "Seçmeli Matematik", "ogretmen": "Öğretmen1", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Sosyal Bilgiler", "ogretmen": "Öğretmen2", "toplam_saat": 3, "blok_yapisi": "2,1" },
+        { "ders": "Fen Bilgisi", "ogretmen": "Öğretmen3", "toplam_saat": 4, "blok_yapisi": "2,2" },
+        { "ders": "Türkçe", "ogretmen": "Öğretmen4", "toplam_saat": 6, "blok_yapisi": "2,2,2" },
+        { "ders": "İngilizce", "ogretmen": "Öğretmen5", "toplam_saat": 3, "blok_yapisi": "2,1" },
+        { "ders": "Beden Eğitimi", "ogretmen": "Öğretmen6", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Seçmeli Spor Faaliyetleri", "ogretmen": "Öğretmen6", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Din Kültürü ve Ahlak Bilgisi", "ogretmen": "Öğretmen7", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Bilişim Teknolojileri ve Yazılım", "ogretmen": "Öğretmen8", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Müzik", "ogretmen": "Öğretmen9", "toplam_saat": 1, "blok_yapisi": "1" },
+        { "ders": "Seçmeli Müzik", "ogretmen": "Öğretmen9", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Görsel Sanatlar", "ogretmen": "Öğretmen10", "toplam_saat": 1, "blok_yapisi": "1" }
+      ],
+      "Sınıf4": [
+        { "ders": "Matematik", "ogretmen": "Öğretmen1", "toplam_saat": 5, "blok_yapisi": "2,2,1" },
+        { "ders": "Seçmeli Matematik", "ogretmen": "Öğretmen1", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Sosyal Bilgiler", "ogretmen": "Öğretmen2", "toplam_saat": 3, "blok_yapisi": "2,1" },
+        { "ders": "Fen Bilgisi", "ogretmen": "Öğretmen13", "toplam_saat": 4, "blok_yapisi": "2,2" },
+        { "ders": "Türkçe", "ogretmen": "Öğretmen4", "toplam_saat": 6, "blok_yapisi": "2,2,2" },
+        { "ders": "İngilizce", "ogretmen": "Öğretmen5", "toplam_saat": 3, "blok_yapisi": "2,1" },
+        { "ders": "Beden Eğitimi", "ogretmen": "Öğretmen6", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Seçmeli Spor Faaliyetleri", "ogretmen": "Öğretmen6", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Din Kültürü ve Ahlak Bilgisi", "ogretmen": "Öğretmen7", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Bilişim Teknolojileri ve Yazılım", "ogretmen": "Öğretmen8", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Müzik", "ogretmen": "Öğretmen9", "toplam_saat": 1, "blok_yapisi": "1" },
+        { "ders": "Seçmeli Müzik", "ogretmen": "Öğretmen9", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Görsel Sanatlar", "ogretmen": "Öğretmen10", "toplam_saat": 1, "blok_yapisi": "1" }
+      ],
+      "Sınıf5": [
+        { "ders": "Matematik", "ogretmen": "Öğretmen11", "toplam_saat": 5, "blok_yapisi": "2,2,1" },
+        { "ders": "Seçmeli Matematik", "ogretmen": "Öğretmen11", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Sosyal Bilgiler", "ogretmen": "Öğretmen2", "toplam_saat": 3, "blok_yapisi": "2,1" },
+        { "ders": "Fen Bilgisi", "ogretmen": "Öğretmen13", "toplam_saat": 4, "blok_yapisi": "2,2" },
+        { "ders": "Türkçe", "ogretmen": "Öğretmen14", "toplam_saat": 6, "blok_yapisi": "2,2,2" },
+        { "ders": "İngilizce", "ogretmen": "Öğretmen5", "toplam_saat": 3, "blok_yapisi": "2,1" },
+        { "ders": "Beden Eğitimi", "ogretmen": "Öğretmen6", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Seçmeli Spor Faaliyetleri", "ogretmen": "Öğretmen6", "toplam_saat": 2, "blok_yapisi": "1,1" },
+        { "ders": "Din Kültürü ve Ahlak Bilgisi", "ogretmen": "Öğretmen7", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Bilişim Teknolojileri ve Yazılım", "ogretmen": "Öğretmen8", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Müzik", "ogretmen": "Öğretmen9", "toplam_saat": 1, "blok_yapisi": "1" },
+        { "ders": "Seçmeli Müzik", "ogretmen": "Öğretmen9", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Görsel Sanatlar", "ogretmen": "Öğretmen10", "toplam_saat": 1, "blok_yapisi": "1" }
+      ],
+      "Sınıf6": [
+        { "ders": "Matematik", "ogretmen": "Öğretmen11", "toplam_saat": 5, "blok_yapisi": "2,2,1" },
+        { "ders": "Seçmeli Matematik", "ogretmen": "Öğretmen11", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Sosyal Bilgiler", "ogretmen": "Öğretmen2", "toplam_saat": 3, "blok_yapisi": "2,1" },
+        { "ders": "Fen Bilgisi", "ogretmen": "Öğretmen13", "toplam_saat": 4, "blok_yapisi": "2,2" },
+        { "ders": "Türkçe", "ogretmen": "Öğretmen14", "toplam_saat": 6, "blok_yapisi": "2,2,2" },
+        { "ders": "İngilizce", "ogretmen": "Öğretmen5", "toplam_saat": 3, "blok_yapisi": "2,1" },
+        { "ders": "Beden Eğitimi", "ogretmen": "Öğretmen16", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Seçmeli Spor Faaliyetleri", "ogretmen": "Öğretmen16", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Din Kültürü ve Ahlak Bilgisi", "ogretmen": "Öğretmen7", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Bilişim Teknolojileri ve Yazılım", "ogretmen": "Öğretmen8", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Müzik", "ogretmen": "Öğretmen9", "toplam_saat": 1, "blok_yapisi": "1" },
+        { "ders": "Seçmeli Müzik", "ogretmen": "Öğretmen9", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Görsel Sanatlar", "ogretmen": "Öğretmen10", "toplam_saat": 1, "blok_yapisi": "1" }
+      ],
+      "Sınıf7": [
+        { "ders": "Matematik", "ogretmen": "Öğretmen11", "toplam_saat": 5, "blok_yapisi": "2,2,1" },
+        { "ders": "Seçmeli Matematik", "ogretmen": "Öğretmen11", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Sosyal Bilgiler", "ogretmen": "Öğretmen2", "toplam_saat": 3, "blok_yapisi": "2,1" },
+        { "ders": "Fen Bilgisi", "ogretmen": "Öğretmen13", "toplam_saat": 4, "blok_yapisi": "2,2" },
+        { "ders": "Türkçe", "ogretmen": "Öğretmen14", "toplam_saat": 6, "blok_yapisi": "2,2,2" },
+        { "ders": "İngilizce", "ogretmen": "Öğretmen5", "toplam_saat": 3, "blok_yapisi": "2,1" },
+        { "ders": "Beden Eğitimi", "ogretmen": "Öğretmen16", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Seçmeli Spor Faaliyetleri", "ogretmen": "Öğretmen16", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Din Kültürü ve Ahlak Bilgisi", "ogretmen": "Öğretmen7", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Bilişim Teknolojileri ve Yazılım", "ogretmen": "Öğretmen8", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Müzik", "ogretmen": "Öğretmen9", "toplam_saat": 1, "blok_yapisi": "1" },
+        { "ders": "Seçmeli Müzik", "ogretmen": "Öğretmen9", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Görsel Sanatlar", "ogretmen": "Öğretmen10", "toplam_saat": 1, "blok_yapisi": "1" }
+      ],
+      "Sınıf8": [
+        { "ders": "Matematik", "ogretmen": "Öğretmen11", "toplam_saat": 5, "blok_yapisi": "2,2,1" },
+        { "ders": "Seçmeli Matematik", "ogretmen": "Öğretmen11", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Sosyal Bilgiler", "ogretmen": "Öğretmen2", "toplam_saat": 3, "blok_yapisi": "2,1" },
+        { "ders": "Fen Bilgisi", "ogretmen": "Öğretmen13", "toplam_saat": 4, "blok_yapisi": "2,2" },
+        { "ders": "Türkçe", "ogretmen": "Öğretmen14", "toplam_saat": 6, "blok_yapisi": "2,2,2" },
+        { "ders": "İngilizce", "ogretmen": "Öğretmen5", "toplam_saat": 3, "blok_yapisi": "2,1" },
+        { "ders": "Beden Eğitimi", "ogretmen": "Öğretmen16", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Seçmeli Spor Faaliyetleri", "ogretmen": "Öğretmen16", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Din Kültürü ve Ahlak Bilgisi", "ogretmen": "Öğretmen7", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Bilişim Teknolojileri ve Yazılım", "ogretmen": "Öğretmen8", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Müzik", "ogretmen": "Öğretmen9", "toplam_saat": 1, "blok_yapisi": "1" },
+        { "ders": "Seçmeli Müzik", "ogretmen": "Öğretmen9", "toplam_saat": 2, "blok_yapisi": "2" },
+        { "ders": "Görsel Sanatlar", "ogretmen": "Öğretmen10", "toplam_saat": 1, "blok_yapisi": "1" }
+      ]
+    },
+    "constraints": {
+      "Öğretmen10": {
+        "2": [ false, false, false, false, false, false, false ],
+        "3": [ false, false, false, false, false, false, false ],
+        "4": [ false, false, false, false, false, false, false ]
+      },
+      "Öğretmen16": {
+        "2": [ false, false, false, false, false, false, false ],
+        "3": [ false, false, false, false, false, false, false ],
+        "4": [ false, false, false, false, false, false, false ]
+      }
+    }
+  }

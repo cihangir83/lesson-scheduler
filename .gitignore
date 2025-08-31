@@ -1,0 +1,39 @@
+# Build outputs
+bin/
+obj/
+publish/
+publish-standalone/
+Output/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Package files
+*.nupkg
+*.snupkg
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Website klasörü (ayrı repository)
+lesson-scheduler-website/
+
+# Keep important files
+!Output/LessonScheduler_Setup.exe
+!VC_redist.x64.exe
+!school.ico
+!test5.json
+!KULLANIM_KLAVUZU.md

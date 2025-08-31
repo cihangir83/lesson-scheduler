@@ -1,0 +1,54 @@
+<Window x:Class="LessonScheduler.Views.SimpleSetupWizardWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Kurulum Sihirbazı" 
+        Height="400" Width="600"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize">
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
+        
+        <!-- Content -->
+        <StackPanel Grid.Row="0" Margin="40" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="Kurulum Sihirbazı" 
+                      FontSize="24" FontWeight="Bold" 
+                      HorizontalAlignment="Center" 
+                      Margin="0,0,0,20"/>
+            
+            <TextBlock Text="Bu sihirbaz size programın temel özelliklerini tanıtacak." 
+                      FontSize="14" 
+                      HorizontalAlignment="Center" 
+                      TextAlignment="Center"
+                      TextWrapping="Wrap"
+                      Margin="0,0,0,30"/>
+            
+            <TextBlock Text="• Dersler, öğretmenler ve sınıfları tanımlayın" 
+                      FontSize="12" Margin="0,5"/>
+            <TextBlock Text="• Öğretmen-ders atamalarını yapın" 
+                      FontSize="12" Margin="0,5"/>
+            <TextBlock Text="• Kısıtlamaları belirleyin" 
+                      FontSize="12" Margin="0,5"/>
+            <TextBlock Text="• Otomatik ders programı oluşturun" 
+                      FontSize="12" Margin="0,5"/>
+            <TextBlock Text="• PDF çıktısı alın" 
+                      FontSize="12" Margin="0,5"/>
+        </StackPanel>
+        
+        <!-- Footer -->
+        <Border Grid.Row="1" Background="#F8F9FA">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="20">
+                <Button Name="SkipButton" Content="Atla" 
+                       Width="80" Height="35" Margin="0,0,10,0"
+                       Click="SkipButton_Click"/>
+                <Button Name="OkButton" Content="Anladım" 
+                       Width="80" Height="35"
+                       Background="#4CAF50" Foreground="White"
+                       Click="OkButton_Click"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
